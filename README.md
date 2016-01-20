@@ -1,10 +1,10 @@
 # jdpapi64
 
-This is simply a 64 bit version / dll of [jdpapi project on sourceforge](http://jdpapi.sourceforge.net/)
+This is simply a 64 bit version / dll of the [jdpapi project on sourceforge](http://jdpapi.sourceforge.net/)
 
 ## What is JDPAPI
 
-JDPAPI is a Java Native Interface (JNI) wrapper allowing you to use the Microsoft Data Protection API (MS DPAPI) from Java.
+JDPAPI is a Java Native Interface (JNI) wrapper allowing you to use the Microsoft Data Protection API (MS DPAPI) in Java.
 
 ## What is DPAPI
 
