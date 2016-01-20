@@ -16,3 +16,7 @@ In order to use it, you must have the `jdpapi64.dll` in your system path (find i
 
 You must also have the jdpapi jar file in your classpath (find in the lib folder of this project).
 
+```
+net.sourceforge.jdpapi.DataProtector dpapi = new net.sourceforge.jdpapi.DataProtector();
+byte[] encryptedData = dpapi.protect("testing");
+```
