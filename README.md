@@ -23,3 +23,5 @@ byte[] encryptedData = dpapi.protect("testing");
 String decrypted = dpapi.unprotect(encryptedData);
 System.out.println(decrypted);
 ```
+
+See the [javadocs](http://jdpapi.sourceforge.net/jdpapi-java/apidocs/index.html) for more info.
