@@ -14,9 +14,12 @@ Microsoft Data Protection API (MS DPAPI) is an operating system level API that p
 
 In order to use it, you must have the `jdpapi64.dll` in your system path (find in the lib folder of this project). You can do this at runtime by invoking `System.load("c:\path\to\jdpapi64.dll")`
 
-You must also have the jdpapi jar file in your classpath (find in the lib folder of this project).
+You must also have the jdpapi jar file in your java classpath (find in the lib folder of this project).
 
-```
+```java
 net.sourceforge.jdpapi.DataProtector dpapi = new net.sourceforge.jdpapi.DataProtector();
 byte[] encryptedData = dpapi.protect("testing");
+//...
+String decrypted = dpapi.unprotect(encryptedData);
+System.out.println(decrypted);
 ```
