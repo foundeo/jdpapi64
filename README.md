@@ -8,7 +8,7 @@ JDPAPI is a Java Native Interface (JNI) wrapper allowing you to use the Microsof
 
 ## What is DPAPI
 
-Microsoft Data Protection API (MS DPAPI) is an operating system level API that provides data encryption services. The OS handles the encryption key storage and protection. You can encrypt and decrypt data using a key global to the server or the user.
+[Microsoft Data Protection API](https://msdn.microsoft.com/en-us/library/ms995355.aspx) (MS DPAPI) is an operating system level API that provides data encryption services. The OS handles the encryption key storage and protection. You can encrypt and decrypt data using a key global to the server or the user.
 
 ## How do you use JDPAPI in Java
 
