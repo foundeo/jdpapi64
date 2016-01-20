@@ -1,0 +1,4 @@
+Start Windows SDK Command Prompt >
+
+cl -o jdpapi64.dll DPAPI.cpp /I C:\Java\jdk1.6.0_37\include /I c:\Java\jdk1.6.0_37\include\win32 /link /DLL c:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\x64\Crypt32.Lib
+
