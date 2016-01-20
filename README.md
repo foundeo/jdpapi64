@@ -25,3 +25,9 @@ System.out.println(decrypted);
 ```
 
 See the [javadocs](http://jdpapi.sourceforge.net/jdpapi-java/apidocs/index.html) for more info.
+
+## How to use DPAPI 
+
+DPAPI is machine specific so data encrypted with it *can only be decrypted on the same machine* and with the same runtime user (depending on what options you specify). You cannot export the encryption key or backup the encryption key DPAPI uses.
+
+DPAPI works great for encrypting keys that your application needs for runtime operation.
